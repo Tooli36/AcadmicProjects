@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TaskProject2022</string>
+
+    <string name="add">Add Task</string>
+
+    <string name="completed">Completed Tasks</string>
+
+    <string name="incomplete">Incomplete Tasks</string>
+
+    <string name="find_tasks_by_date">Find Tasks By Date</string>
+
+    <string name="edit">Edit</string>
+
+    <string name="new_date">New Date</string>
+
+    <string name="save">Save</string>
+
+    <string name="return_home">Home</string>
+
+    <string name="choose_date">Pick Date</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="createNewTask">Create</string>
+
+</resources>
