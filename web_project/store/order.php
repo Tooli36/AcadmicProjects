@@ -34,7 +34,7 @@
 <!doctype html>
 <html lang="en">
 	<?php printHead(); ?>
-	<body>
+	<body style="background-image: url('imgs/back.png'); background-repeat: repeat;">
 		<div class="container">
 			<!-- NAVIGATION -->
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -80,7 +80,7 @@
 			{
 				if (getUser($_SESSION["user_id"])["admin"]==1) // if you're admin
 				{
-					echo "you're admin";
+					echo '<h3 style="color: #ffa500;"><B>you are admin</B></h3>';
 					$orders = getAllOrders();
 					for ($i=0; $i<count($orders); $i++)
 					{
@@ -198,7 +198,6 @@
 			}
 			?>
 		</div>
-	
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>

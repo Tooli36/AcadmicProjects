@@ -31,7 +31,7 @@
 <!doctype html>
 <html lang="en">
 	<?php printHead(); ?>
-  <body>
+  <body style="background-image: url('imgs/back.png'); background-repeat: repeat;">
 		<div class="container">
 			<!-- NAVIGATION -->
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -74,11 +74,11 @@
 			<div class="container"> 
 				<form action="<?php echo SelfPOST();?>" method="post">
 					<div class="mb-3">
-						<label for="exampleInputEmail1" class="form-label">Email address</label>
+						<label for="exampleInputEmail1" class="form-label"><h5><B>Email address</B></h5></label>
 						<input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 					</div>
 					<div class="mb-3">
-						<label for="exampleInputPassword1" class="form-label">Password</label>
+						<label for="exampleInputPassword1" class="form-label"><h5><B>Password</B></h5></label>
 						<input type="password" name="password" class="form-control" id="exampleInputPassword1">
 					</div>
 					<button type="submit" class="btn btn-primary">Login</button>
@@ -86,7 +86,6 @@
 				</form>
 			</div>
 		</div>
-	
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>

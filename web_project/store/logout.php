@@ -15,7 +15,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Logging out</title>
   </head>
-  <body>  
+  <body style="background-image: url('imgs/back.png'); background-repeat: repeat;">  
 		<div class="container">		
 				<?php
 					echo "<div class=\"alert alert-primary my-5 \" role=\"alert\">Logging-out...</div>";

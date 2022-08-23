@@ -24,7 +24,7 @@
 <!doctype html>
 <html lang="en">
 	<?php printHead(); ?>
-  <body>
+  <body style="background-image: url('imgs/back.png'); background-repeat: repeat;">
 		<div class="container">
 			<!-- NAVIGATION -->
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -49,31 +49,31 @@
 			<div class="container"> 
 				<form class="row g-3" action="<?php echo SelfPOST();?>" method="post">
 					<div class="col-md-6">
-						<label for="name_f" class="form-label">First Name</label>
+						<label for="name_f" class="form-label"><h5><B>First Name</B></h5></label>
 						<input type="text" name="fn" class="form-control" id="name_f">
 					</div>
 					<div class="col-md-6">
-						<label for="name_l" class="form-label">Last Name</label>
+						<label for="name_l" class="form-label"><h5><B>Last Name</B></h5></label>
 						<input type="text" name="ln" class="form-control" id="name_l">
 					</div>
 					<div class="col-md-6">
-						<label for="inputEmail4" class="form-label">Email</label>
+						<label for="inputEmail4" class="form-label"><h5><B>Email</B></h5></label>
 						<input type="email" name="email" class="form-control" id="inputEmail4">
 					</div>
 					<div class="col-md-6">
-						<label for="inputPassword4" class="form-label">Password</label>
+						<label for="inputPassword4" class="form-label"><h5><B>Password</B></h5></label>
 						<input type="password" name="password" class="form-control" id="inputPassword4">
 					</div>
 					<div class="col-6">
-						<label for="phone" class="form-label">Phone Number</label>
+						<label for="phone" class="form-label"><h5><B>Phone Number</B></h5></label>
 						<input type="text" name="phone" class="form-control" id="phone" name="phone">
 					</div>
 					<div class="col-6">
-						<label for="inputAddress" class="form-label">Address</label>
+						<label for="inputAddress" class="form-label"><h5><B>Address</B></h5></label>
 						<input type="text" name="address" class="form-control" id="inputAddress">
 					</div>
 					<div class="col-md-6">
-						<label for="inputCity" class="form-label">City</label>
+						<label for="inputCity" class="form-label"><h5><B>City</B></h5></label>
 						<input type="text" name="city" class="form-control" id="inputCity">
 					</div>
 					<div class="col-12">

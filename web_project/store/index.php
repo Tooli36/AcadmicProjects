@@ -26,8 +26,8 @@
 <!doctype html>
 <html lang="en">
 	<?php printHead(); ?>
-  <body>  
-		<div class="container">		
+  <body style="background-image: url('imgs/back.png'); background-repeat: repeat;">  
+		<div class="container" >		
 			<!-- NAVIGATION -->
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			  <div class="container-fluid">

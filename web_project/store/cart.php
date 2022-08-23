@@ -65,7 +65,7 @@
 <!doctype html>
 <html lang="en">
 	<?php printHead(); ?>
-	<body>
+	<body style="background-image: url('imgs/back.png'); background-repeat: repeat;">
 		<div class="container">
 <!-- NAVIGATION -->
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -127,7 +127,7 @@
 					if ($cart_size>=1)
 					{
 						echo "
-						<h2 class=\"col-md-auto\">Total: ".$_SESSION["total_price"].getCurrency()."</h2>
+						<h2 class=\"col-md-auto\"><B>Total: ".$_SESSION["total_price"].getCurrency()."</B></h2>
 						";
 						
 						echo "<form class=\"col-md-auto\" action=\"".SelfPOST()."\" method=\"post\">
